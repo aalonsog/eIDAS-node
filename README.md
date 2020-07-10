@@ -1,2 +1,2 @@
 # eIDAS-node
-eIDAS node sample implementation developed in the CEF eID4U project
+eIDAS node sample implementation for supporting functional attributes
