@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>A11y natural-person attributes</comment>
+    
+    <entry key="1.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/vision</entry>
+    <entry key="1.FriendlyName">Vision</entry>
+    <entry key="1.PersonType">NaturalPerson</entry>
+    <entry key="1.Required">false</entry>
+    <entry key="1.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="1.XmlType.LocalPart">VisionType</entry>
+    <entry key="1.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="1.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry>
+
+    <entry key="2.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/colorperception</entry>
+    <entry key="2.FriendlyName">ColorPerception</entry>
+    <entry key="2.PersonType">NaturalPerson</entry>
+    <entry key="2.Required">false</entry>
+    <entry key="2.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="2.XmlType.LocalPart">ColorPerceptionType</entry>
+    <entry key="2.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="2.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry> 
+
+    <entry key="3.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/hearing</entry>
+    <entry key="3.FriendlyName">Hearing</entry>
+    <entry key="3.PersonType">NaturalPerson</entry>
+    <entry key="3.Required">false</entry>
+    <entry key="3.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="3.XmlType.LocalPart">HearingType</entry>
+    <entry key="3.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="3.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry> 
+
+    <entry key="4.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/vocalcapability</entry>
+    <entry key="4.FriendlyName">VocalCapability</entry>
+    <entry key="4.PersonType">NaturalPerson</entry>
+    <entry key="4.Required">false</entry>
+    <entry key="4.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="4.XmlType.LocalPart">VocalCapabilityType</entry>
+    <entry key="4.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="4.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry> 
+
+    <entry key="5.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/manipulationstrength</entry>
+    <entry key="5.FriendlyName">ManipulationStrength</entry>
+    <entry key="5.PersonType">NaturalPerson</entry>
+    <entry key="5.Required">false</entry>
+    <entry key="5.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="5.XmlType.LocalPart">ManipulationStrengthType</entry>
+    <entry key="5.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="5.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry> 
+
+    <entry key="6.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/reach</entry>
+    <entry key="6.FriendlyName">Reach</entry>
+    <entry key="6.PersonType">NaturalPerson</entry>
+    <entry key="6.Required">false</entry>
+    <entry key="6.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="6.XmlType.LocalPart">ReachType</entry>
+    <entry key="6.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="6.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry> 
+
+    <entry key="7.NameUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson/cognition</entry>
+    <entry key="7.FriendlyName">Cognition</entry>
+    <entry key="7.PersonType">NaturalPerson</entry>
+    <entry key="7.Required">false</entry>
+    <entry key="7.XmlType.NamespaceUri">http://eidas.europa.eu/attributes/sectorspecific/a11y/naturalperson</entry>
+    <entry key="7.XmlType.LocalPart">CognitionType</entry>
+    <entry key="7.XmlType.NamespacePrefix">a11y</entry>
+    <entry key="7.AttributeValueMarshaller">a11y.impl.attributes.studies.PercIntegerAttributeValueMarshaller</entry> 
+
+    
+
+</properties>

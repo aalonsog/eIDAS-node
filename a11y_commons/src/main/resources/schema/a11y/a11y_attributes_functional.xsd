@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://eidas.europa.eu/attributes/sectorspecific/a11y" xmlns:a11y="http://eidas.europa.eu/attributes/sectorspecific/a11y" xmlns:europass3="http://europass.cedefop.europa.eu/Europass" targetNamespace="http://eidas.europa.eu/attributes/sectorspecific/a11y" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1">
+	<!--xs:import namespace="http://europass.cedefop.europa.eu/Europass" schemaLocation="https://europass.cedefop.europa.eu/xml/v3.1.2/EuropassSchema.xsd"/-->
+<!-- 	<xs:import namespace="http://europass.cedefop.europa.eu/Europass" schemaLocation="classpath:/schema/eid4u/external/EuropassSchema.xsd"/>
+	<xs:import namespace="http://eidas.europa.eu/attributes/sectorspecific/eid4u" schemaLocation="eID4U_attributes_generic.xsd"/> -->
+	<xs:simpleType name="Vision">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ColorPerception">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="Hearing">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="VocalCapability">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ManipulationStrength">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="Reach">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="Cognition">
+		<xs:annotation>
+			<xs:documentation>
+				Functional attribute
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:unsignedShort">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
